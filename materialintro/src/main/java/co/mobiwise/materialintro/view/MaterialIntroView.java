@@ -521,6 +521,7 @@ public class MaterialIntroView extends RelativeLayout {
                         0);
                 dotView.setLayoutParams(dotViewLayoutParams);
                 dotView.postInvalidate();
+                dotView.setBackgroundColor(Color.TRANSPARENT);
                 addView(dotView);
 
                 dotView.setVisibility(VISIBLE);
